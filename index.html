@@ -35,7 +35,7 @@
     <header class="header">
       <div class="container header-container">
         <nav class="header-nav">
-          <a href="./index.html" class="webstudio"
+          <a href="./index.html" class="webstudio header-logo"
             >web<span class="studio">Studio</span></a
           >
 
@@ -63,9 +63,81 @@
             </li>
           </ul>
         </address>
+        <button type="button" class="burger-bth" data-menu-open>
+          <svg class="burger-icon" width="24" height="24">
+            <use href="./images/icons.svg#icon-burger"></use>
+          </svg>
+        </button>
+      </div>
+      <div class="mobile-menu" data-menu>
+        <div class="container mobile-menu-container">
+          <button class="mobile-menu-close" data-menu-close>
+            <svg width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black"></use>
+            </svg>
+          </button>
+          <nav class="mobile-menu-nav">
+            <li>
+              <a class="mobile-studio-nav" href="./index.html">Studio</a>
+            </li>
+            <li>
+              <a class="mobile-style-nav" href="./index.html">Portfolio</a>
+            </li>
+            <li>
+              <a class="mobile-style-nav" href="./index.html">Contacts</a>
+            </li>
+          </nav>
+          <address class="">
+            <ul class="">
+              <li>
+                <a href="tel:+110001111111" class="contacts-list"
+                  >+11 (000) 111-11-11</a
+                >
+              </li>
+              <li>
+                <a href="mailto:info@devstudio.com" class="contacts-list"
+                  >info@devstudio.com</a
+                >
+              </li>
+            </ul>
+          </address>
+          <div class="social-container">
+            <p class="social-text visually-hidden">Social media</p>
+            <ul class="footer-list">
+              <li class="footer-media">
+                <a href="https://instagram.com" class="footer-links">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-media">
+                <a href="https://twitter.com" class="footer-links">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-media">
+                <a href="https://facebook.com" class="footer-links">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="footer-media">
+                <a href="https://linkedin.com" class="footer-links">
+                  <svg class="social-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
       </div>
     </header>
-    <main>
+    <!-- <main>
       <section class="first-section section">
         <div class="container">
           <h1 class="main-title">Effective Solutions for Your Business</h1>
@@ -602,7 +674,8 @@
           <button type="submit" class="submit-bth">Send</button>
         </form>
       </div>
-    </div>
+    </div> -->
     <script src="./js/modal.js"></script>
+    <script src="./js/menu.js"></script>
   </body>
 </html>
