@@ -319,6 +319,9 @@ height: 100%;
     
 }
 
+ .mobile-menu-nav li {
+     list-style: none;
+ }
 .mobile-style-nav{
         font-weight: 700;
         font-size: 36px;
@@ -346,6 +349,7 @@ height: 100%;
         line-height: 1.20;
         letter-spacing: 0.02em;
         color: #434455;
+        font-style: normal;
 }
 .contacts-list:hover,
 .contacts-list:focus {
@@ -354,7 +358,7 @@ height: 100%;
 
 .footer-list {
     display: flex;
-    gap: 16px;
+    gap: 40px;
     margin: 48px 0;
 
 }
